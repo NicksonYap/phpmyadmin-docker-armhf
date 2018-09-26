@@ -1,4 +1,5 @@
-FROM php:7.2-fpm-alpine
+#FROM php:7.2-fpm-alpine
+FROM arm32v7/php:7.2-fpm
 
 RUN apk add --no-cache \
     nginx \
